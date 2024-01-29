@@ -41,9 +41,9 @@ function Navbar() {
                 :
                 <div className="d-flex mx-2">
                   <Link className="btn bg-white text-primary mx-2 position-relative" onClick={()=>setShowCart(true)}>My Cart
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       {data.length}
-                      <span class="visually-hidden">unread messages</span>
+                      <span className="visually-hidden">unread messages</span>
                     </span>
                   </Link>
                   {

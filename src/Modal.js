@@ -6,7 +6,7 @@ export default function Modal({children , onClose}) {
     <>
     <div style={OVERLAY_STYLES} />
 <div style={MODAL_STYLES}>
-    <i class="bi bi-x-lg text-danger fs-2 position-relative" style={{left:"97%",cursor:'pointer'}} onClick={onClose}></i>
+    <i className="bi bi-x-lg text-danger fs-2 position-relative" style={{left:"97%",cursor:'pointer'}} onClick={onClose}></i>
     {children}
 </div>
     </>,
