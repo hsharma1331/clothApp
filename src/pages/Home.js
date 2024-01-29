@@ -16,7 +16,7 @@ export default function Home() {
 
     const loadData = async () => {
 
-        let response = await fetch("http://localhost:5000/api/clothData", {
+        let response = await fetch("https://clothbac.onrender.com/api/clothData", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'

@@ -7,7 +7,7 @@ const [data,setData] = useState({name:'',password:'',email:'',address:''})
 
 const formFun = async(e)=>{
 e.preventDefault();
-const response =await fetch("http://localhost:5000/api/createuser",
+const response =await fetch("https://clothbac.onrender.com/api/createuser",
 {
     method:'POST',
     headers:{
